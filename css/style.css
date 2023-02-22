@@ -115,7 +115,7 @@ body.dark{
     color: whitesmoke;
 }
 #loader .photo-loader{
-    animation: loaderRotate  infinite cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    animation: loaderRotate  infinite cubic-bezier(0.19, 1, 0.22, 1) 3s;
 }
 @keyframes loaderRotate {
     0%{
