@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandCrafted Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="./images/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+</head>
+<body>
+
+    <!-- Loader  -->
+    <div id="loader" class="d-flex">
+        <div class="text laptop d-flex">
+            <div class="box">
+                <h1>Craft</h1>
+                <h1>enjoy</h1>
+                <h1>change</h1>
+            </div>
+            <div class="box">
+                <h1>the</h1>
+            </div>
+            <div class="box">
+                <h1>items</h1>
+                <h1>life</h1>
+                <h1>future</h1>
+            </div>
+        </div>
+        <div class="photo-loader d-flex">
+            <img src="./images/logo.jpg" alt="">
+            <h2>Handyy.com</h2>
+        </div>
+        
+    </div>
+
+
+    <!-- For Phone Menu Box -->
+    <div class="menu-box-phone phone">
+        <div class="cross-icon">
+            <a href="#home"><img src="./images/logo.jpg" alt=""></a>
+            <i class="ri-close-line"></i>
+        </div>
+        <ul class="menu-phone">
+            <li class="menu-phone-link">
+                <a href="#home">Home</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#about">About</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#newarriaval">New Arrival</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#products">Products</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#team">Team</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#contact">Contact</a>
+            </li>
+            <li class="menu-phone-link">
+                <a href="#signup" >Sign Up</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- For Signup Page -->
+    <div class="signup d-flex laptop" id="signup">
+        <i class="ri-close-line"></i>
+        <div class="signup-form d-flex">
+            <h1>Sign Up Form</h1>
+            <div class="signup-input-box">
+                <label for="name">Name</label>
+                <input type="text" name="" id="name">
+            </div>
+            <div class="signup-input-box">
+                <label for="Email">Email address</label>
+                <input type="text" name="" id="Email">
+            </div>
+            <div class="signup-input-box">
+                <label for="password">Password</label>
+                <input type="password" name="" id="password">
+            </div>
+            <button type="submit" style="padding: 5px 10px 8px; border-radius: 0px; font-size: 1.3vw;background-color: white;"><span>Sign In</span></button>
+        </div>
+    </div>
+
+    <!-- Scroll Up Button -->
+    
+    <div class="scroll-up-btn">
+        <a href="#home" style="text-decoration: none;"><i class="ri-arrow-up-s-line"></i></a>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar nav_menu">
+        <div class="max-width d-flex">
+            <div class="logo d-flex">
+                <a href="" class="d-flex" style="flex-direction: column;"><img src="./images/image-removebg-preview.png" alt="" style="width: 100px;"><p style="font-size: 15px;">Handyy.com</p></a>
+            </div>
+            <div class="menu-icon phone">
+                <i class="ri-menu-line"></i>
+            </div>
+            <ul class="menu nav_list laptop">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link active-link ">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link ">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#newarriaval" class="nav_link ">New Arrivals</a>
+                </li>
+                <a href="#p4" class="nav_link nav_item"></a>
+                <a href="#data1" class="nav_link nav_item"></a>
+                <li class="nav_item">
+                    <a href="#products" class="nav_link">Products</a>
+                </li>
+
+                <a href="#data2" class="nav_link nav_item"></a>
+    
+                <li class="nav_item">
+                    <a href="#team" class="nav_link ">Team</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link ">Contact</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#signup" class="nav_link signupbtn ">Sign-Up</a>
+                </li>
+                <li>
+                    <a href="" class="nav_link cart" data-content="9" data-anijs="if: mouseover, do: tada animated"><i class="ri-shopping-cart-2-fill" style="font-size: 2vw;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Body -->
+    <div id="main">
+        <!-- Home section -->
+        <section class="section" id="home">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./images/home-1.jpeg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/home-2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/home-3.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1269&q=80" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/home-5.jpg" alt="">
+                      </div>
+                      
+                    </div>
+                    <div class="home-overlay d-flex laptop">
+                        <div class="heading">
+                            <h1 class="split" >Feel The Beauty in Craft</h1>
+                        </div>
+                        <p class="split2">Crafting Is The Desire Of A Man To Express Himself, To Record The Reactions Of His Personality To The World He Lives In.</p>
+                    </div>
+                    <div class="home-overlay-2 phone d-flex">
+                        <h1>Feel The Beauty in Craft</h1>
+                        <p>Crafting Is The Desire Of A Man To Express Himself, To Record The Reactions Of His Personality To The World He Lives In.</p>
+                    </div>
+                </div>
+        </section>
+
+    
+        <section  class="section d-flex" id="about">
+            <div class="info d-flex">
+                <div class="left d-flex">
+                    <video src="./videos/pottery 3.mp4" autoplay loop muted class="laptop"></video>
+                    <video src="./videos/pottery 3.mp4" autoplay loop muted class="phone"></video>
+                </div>
+                <div class="right d-flex laptop">
+                    <h1 class="split2">Welcome to our Website</h1> 
+                    <div class="right-para d-flex">
+                        <p class="split2 one">Handyy.com is an online craft brand started in Feb 2023 with a vision to promote Indian handicrafts globally & help small artisans based in different parts of India earn a living out of it.</p> 
+                        <p class="split2 two">We offer handmade products, like Pottery Products, Ladies Jwellery , Hand Bags ,home decore items. The buyer can get an ultimate unique handmade items created by some highly passionate handcraft artists.</p> 
+                        <p class="split2 three">Artisans on Handyy.com work on  various raw materials like Ceramic, Wood, Paper, Wrought Iron, Glass which are not only a visual treat but at the same time a pure reflection of the Passion of the Artist which has made him / her ideate and create such  beautiful piece of Art.</p>  
+                        <p class="split2 four">Take pride in owning a Handmade product that showcases the skills of local Artisans.  is your exclusive online destination for all things which is Handmade.</p>
+                    </div>
+                    <a href=""><button><span>Contact Us</span></button></a>
+                </div>
+                <div class="about-phone phone">
+                    <h1>Welcome to our Website</h1>
+                    <div class="phone-para">
+                        <p ><b>Handyy.com</b> is an online craft brand started in Feb 2023 with a vision to promote Indian handicrafts globally & help small artisans based in different parts of India earn a living out of it.</p> 
+                        <p >We offer handmade products, like Pottery Products, Ladies Jwellery , Hand Bags ,home decore items. The buyer can get an ultimate unique handmade items created by some highly passionate handcraft artists.</p> 
+                        <p >Artisans on <b>Handyy.com</b> work on  various raw materials like Ceramic, Wood, Paper, Wrought Iron, Glass which are not only a visual treat but at the same time a pure reflection of the Passion of the Artist which has made him / her ideate and create such  beautiful piece of Art.</p>  
+                        <a href="#contact"><button style="padding: 5px 10px 8px;"><span>Contact Now</span></button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section  class="section" id="newarriaval">
+            <div class="nilu-box">
+                <div class="text d-flex laptop">
+                    <h1 class="split2">New Arrival Handcrafted Products</h1>
+                </div>
+                <div class="newarrival-text-phone phone ">
+                    <h1>New Arrival</h1>
+                    <h1>Handcrafted Products</h1>
+                </div>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--one">
+                      <span>Pottery</span>
+                      <div style="z-index: 999;cursor: pointer;">
+                        <h2>Curry / Biryani Pot</h2>
+                        <p>Rs 499 /-</p>
+                      </div>
+                      <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--two">
+                        <span>Home Decore</span>
+                        <div style="z-index: 999;cursor: pointer;">
+                          <h2>Curry / Biryani Pot</h2>
+                          <p>Rs 499 /-</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+              
+                    <div class="swiper-slide swiper-slide--three">
+                        <span>Jwellery</span>
+                        <div style="z-index: 999;cursor: pointer;">
+                          <h2>Curry / Biryani Pot</h2>
+                          <p>Rs 499 /-</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+              
+                    <div class="swiper-slide swiper-slide--four">
+                        <span>Hand Bags</span>
+                        <div style="z-index: 999;cursor: pointer;">
+                          <h2>Curry / Biryani Pot</h2>
+                          <p>Rs 499 /-</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+              
+                    <div class="swiper-slide swiper-slide--five">
+                        <span>Wooden Item</span>
+                        <div style="z-index: 999;cursor: pointer;">
+                          <h2>Curry / Biryani Pot</h2>
+                          <p>Rs 499 /-</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="p4">
+            <div class="overlay d-flex">
+                <div class="offer d-flex">
+                    <h1 class="split2">Become a Retailer or a Wholesale buyer</h1>
+                    <h4 class="split2">Get attractive prices on Bulk Orders</h4>
+                    <a href="" class="laptop"><button><span>Learn More</span></button></a>
+                    <a href="#contact" class="phone"><button style="padding: 5px 10px 8px;margin-left: 5px;"><span>Contact Now</span></button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="data1">
+            <div class="text d-flex">
+                <h1>handyy.com : The Indian Handicraft Catalogue</h1>
+                <h3>Handyy.com is inspired by a generation that is highly connected with its roots. Hence, we have crafted this platform that connects you to the artisans of India and showcases their work by providing you with the best handicraft items online.</h3>
+                <h3>We aim to make the experience of buying aesthetic and contemporary products online delightful for customers. Also, the core motive is to make sure the handicraft industry in India gets a digital boost. <span class="laptop">We are here to make purchasing products online convenient for your lifestyle, making life simpler & safer for you.</span></h3>
+            </div>
+            <div class="text d-flex">
+                <h1>Buy Handmade Luxury Home Decor Products Online</h1>
+                <h3>Home decor items are not the easiest thing to find as of now. At first, we have to figure out what goes well with our house design, and then we have to review 100's products that may or may not be what we're looking for. </h3> 
+                <h3>Handyy.com provides a wide home  & decor products range designed to suit all your home interiors. Also, what better way can be to decorate your home than with some traditional handmade pieces that draw inspiration from the oldest civilisations in the world .</h3>
+            </div>
+            
+        </section>
+
+        <section  class="section" id="products">
+            <div class="top-part d-flex">
+                <h2 class="split2">Our Crafted Products</h2>
+                <p class="split2">" The Aim Of Crafting Is To Represent Not The Outward Appearance Of Things, But Their Inward Significance. "</p>
+            </div>
+            <div class="bottom-part">
+                <div class="product_filters laptop">
+                    <h2 class="laptop">Category</h2>
+                    <span class="product_item active-product" data-filter="all">All Products</span>
+                    <span class="product_item"  data-filter=".pottery">Pottery Items</span>
+                    <span class="product_item" data-filter=".homedecore">home Decore</span>
+                    <span class="product_item" data-filter=".jwellery">Jwellery</span>
+                    <span class="product_item" data-filter=".bags">handmade Bags</span>
+                    <span class="product_item" data-filter=".wooden">Wooden Products</span>
+                </div>
+                <div class="product_filters-phone phone">                   
+                    <span class="product_item active-product" data-filter="all">All Products</span>
+                    <span class="product_item"  data-filter=".pottery">Pottery Items</span>
+                    <span class="product_item" data-filter=".homedecore">home Decore</span>
+                    <span class="product_item" data-filter=".jwellery">Jwellery items</span>
+                    <span class="product_item" data-filter=".bags">handmade Bags</span>
+                    <span class="product_item" data-filter=".wooden">Wooden Products</span>
+                </div>
+    
+                <div class="product_container" id="container">
+                    <div id="photo-box">
+
+                        <div class="product_card mix pottery">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/26470112/r/il/cce832/3118800815/il_794xN.3118800815_40kg.jpg" alt="">
+                                <div class="photo-overlay">
+                                    <div class="placement">
+                                        <div class="heart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Curry / Biryani Pot</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product_card mix pottery">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/33482560/r/il/62c4b3/3690314032/il_794xN.3690314032_rpkv.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                        <div class="heart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Cooking Kadai</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix pottery">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/33482560/r/il/507f27/3709156563/il_794xN.3709156563_642y.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Pressure Cooker </h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix pottery">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/33482560/r/il/21e6e1/3646519931/il_794xN.3646519931_10lx.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Cooking Tawa</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix homedecore">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/40452706/r/il/58734d/4623140792/il_794xN.4623140792_7z7m.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Wall Mirror</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix homedecore">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/22278565/r/il/121204/3784009251/il_794xN.3784009251_p70h.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Jewelry Wooden Box For Women</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix homedecore">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/28045281/r/il/3f41fa/3897994052/il_794xN.3897994052_l8xd.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3> Sun catcher Wall hanging Jhumer</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix homedecore">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/iap/8cfb8c/4673490157/iap_640x640.4673490157_3vojdtug.jpg?version=0" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Macrame Leaf Wall Hanging</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix jwellery">
+                            <div class="product-photo">
+                                <img src="https://www.aftcra.com/uploads/cache/products/3/7/374b2b6b52335931dceea86617086f5297b4fc1d_356207_1039758_579x.jpeg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3> Multicolor Mookaite Pebble Dangle Hoops</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix jwellery">
+                            <div class="product-photo">
+                                <img src="https://www.aftcra.com/uploads/cache/products/b/6/b6dadfa5a1a54d558d47f0b7647c7637220f9134_356368_1040421_579x.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Gem & Lava Bead Ring</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix jwellery">
+                            <div class="product-photo">
+                                <img src="https://goimagine.com/images/detailed/406/P202007NGLc1a_GI_org.png
+                                " alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Necklace Set</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix jwellery">
+                            <div class="product-photo">
+                                <img src="https://www.aftcra.com/uploads/cache/products/7/2/727e6989d41bac4e9bb3c1b1b399ef75e7c120c2_356481_1040917_579x.jpeg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Gemstone Charm Bracelet</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix bags">
+                            <div class="product-photo">
+                                <img src="https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-a2e9dadc-b0d8-456c-a4be-2c27eb3e524f-handmade-crochet-shopping-bag-rising-the-label/display" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Handmade crochet waffle shopping bag</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix bags">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/25120799/r/il/f1e269/3626853044/il_794xN.3626853044_2b3a.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Multi Color Hand Bag</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix bags">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/30790981/r/il/682001/3842661995/il_794xN.3842661995_fpsa.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Handmade Natural Jute Cross body bag</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix bags">
+                            <div class="product-photo">
+                                <img src="https://i.etsystatic.com/25341831/r/il/289b24/4277122749/il_794xN.4277122749_ieic.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3> Crochet squares pattern tote bag</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix wooden">
+                            <div class="product-photo">
+                                <img src="https://cdn.shopify.com/s/files/1/0039/6397/7828/products/WKH601_main_hd_54cb114c-8287-4c81-8bf4-64c88f1f8ec8_900x.jpg?v=1589474077" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Polyresin Lord Ganesha Idol Wooden Key holder</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix wooden">
+                            <div class="product-photo">
+                                <img src="https://cdn.shopify.com/s/files/1/0039/6397/7828/products/KWC607_main_hd.jpg?v=1569130823" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Shehnai Shape wall clock Wooden Handcrafted </h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix wooden">
+                            <div class="product-photo">
+                                <img src="https://www.aftcra.com/uploads/cache/products/9/5/95ac639d1d0399c98106ec4b58673d728fc58db5_356080_1039254_579x.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Handcrafted Eagle/Buffalo Skull Intarsia Wood Art</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_card mix wooden">
+                            <div class="product-photo">
+                                <img src="https://www.aftcra.com/uploads/cache/products/b/9/b9855b6e2630103f471181abfa9aa1e518070697_350078_1015070_579x.jpg" alt="">
+                                <div class="photo-overlay d-flex">
+                                    <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-name d-flex">
+                                <h3>Wooden Candle Holder Set</h3>
+                                <div class="product-buy-btn d-flex">
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Buy Now</span></button></a>
+                                    <a href=""><button style="padding: 5px 10px 8px;"><span>Rs 299/-</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <!-- <section class="section d-flex" id="data2">
+            <h1>Video</h1>
+        </section> -->
+        
+
+        <section  class="section d-flex" id="team">
+            <div class="top d-flex">
+                <div class="left d-flex">
+                    <h1 class="split">Our Team</h1>
+                </div>
+                <div class="right d-flex">
+                    <h3 class="split2">We are a team of Passionate, Creative, and Curious people, here to partner with those who share our values and our desire to make the world better for all.</h3>
+                </div>
+            </div>
+            <div class="bottom d-flex">
+                <div class="profile d-flex" id="nilendra">
+                    <img src="./images/nilendra.png" alt="">
+                    <div class="overlay d-flex">
+                       <h1 class="name">Nilendra Patel</h1>
+                       <h3 class="profession">Frontend Developer</h3>
+                       
+                       <div class="social-link d-flex">
+                            <a target="_blank" href="https://www.instagram.com/web_developer_1317/" class="instagram"><i class="ri-instagram-line"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/%E2%84%95i%CD%A5%E2%84%93e%CD%A3n%CD%AB%E2%88%82%E2%84%9D%E2%B1%A5-%E2%84%99%E2%B1%A5te%E2%84%93-%F0%9F%A6%81-6aaa71209/" class="linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                            <a target="_blank" href="https://github.com/nilendra-vip" class="github"><i class="ri-github-fill"></i></a>
+                       </div> 
+                    </div>
+                </div>
+                <div class="profile d-flex" id="muskan">
+                    <img src="./images/muskan.png" alt="">
+                    <div class="overlay d-flex">
+                       <h1 class="name">Muskan Rai</h1>
+                       <h3 class="profession">Frontend Developer</h3>
+                       
+                       <div class="social-link d-flex">
+                            <a target="_blank" href="" class="instagram"><i class="ri-instagram-line"></i></a>
+                            <a target="_blank" href="" class="linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                            <a target="_blank" href="" class="github"><i class="ri-github-fill"></i></a>
+                       </div> 
+                    </div>
+                </div>
+                <div class="profile d-flex" id="naveen">
+                    <img src="./images/naveen.png" alt="">
+                    <div class="overlay d-flex">
+                        <h1 class="name">Naveen Kori</h1>
+                        <h3 class="profession">Frontend Developer</h3>
+                        
+                        <div class="social-link d-flex">
+                            <a target="_blank" href="" class="instagram"><i class="ri-instagram-line"></i></a>
+                            <a target="_blank" href="" class="linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                            <a target="_blank" href="" class="github"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile d-flex" id="shweta">
+                    <img src="./images/shweta.png" alt="">
+                    <div class="overlay d-flex">
+                        <h1 class="name">Shweta Singh</h1>
+                        <h3 class="profession">Frontend Developer</h3>
+                        
+                        <div class="social-link d-flex">
+                            <a target="_blank" href="" class="instagram"><i class="ri-instagram-line"></i></a>
+                            <a target="_blank" href="" class="linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                            <a target="_blank" href="" class="github"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="section d-flex" id="contact">
+            <div class="top">
+                <div class="contact-box d-flex">
+                    <div class="address">
+                        <h1>Contact Us</h1>
+                        <div class="data">
+                            <h3><i class="ri-phone-line"></i> Call us</h3>
+                            <p>+91-9406663416 +91-7722864645</p>
+                            <h3><i class="ri-map-pin-line"></i> Loaction</h3>
+                            <p>Sector -C , Indrapuri , Bhopal</p>
+                            <h3><i class="ri-mail-line"></i> Office Email </h3>
+                            <p>handyy123@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="top-categories">
+                        <h1>Top Categories</h1>
+                        <div class="link d-flex">
+                            <a href="">Pottery Items</a>
+                            <a href="">Home Decore</a>
+                            <a href="">Jwellery</a>
+                            <a href="">handmade Bags</a>
+                            <a href="">Wooden Products</a>
+                        </div>
+                    </div>
+                    <div class="feedback d-flex">
+                            <h1>Feedback Form</h1>
+                            <div class="input d-flex">
+                                <h4>Enter Your Email : <input type="email" name="" id="email" placeholder="write your email"></h4>
+                                <h4>Your feedback : <textarea name="" id="" cols="22" rows="5" placeholder="Write message"></textarea></h4>
+                                <h4 class="phone">Your feedback : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="" id="" cols="22" rows="3" placeholder="Write message"></textarea></h4>
+                            </div>
+                            <div class="sendbtn d-flex">
+                                <input type="submit" value="Send" id="send">
+                            </div>
+                    </div>
+                </div>
+                <div class="subscribe d-flex">
+                    <div class="text d-flex">
+                        <h3>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</h3>
+                        <div class="sub d-flex">
+                            <input type="text" name="" id="" placeholder="Enter Your Email">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom d-flex">
+                <div class="text">
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                    <h1>Handyy.com <img src="./images/logo.jpg" alt="" class="laptop"> </h1>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
