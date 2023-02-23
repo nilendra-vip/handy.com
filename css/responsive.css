@@ -25,6 +25,44 @@
 #loader .photo-loader h2{
     font-size: 10vw;
 }
+#loader .photo-loader{
+    animation: loaderRotate  infinite cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+@keyframes loaderRotate {
+    0%{
+        transform: rotate3d(0, 1, 0, 36deg);
+    }
+    10%{
+        transform: rotate3d(0, 1, 0, 72deg);
+    }
+    20%{
+        transform: rotate3d(0, 1, 0, 108deg);
+    }
+    30%{
+        transform: rotate3d(0, 1, 0, 144deg);
+    }
+    40%{
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    50%{
+        transform: rotate3d(0, 1, 0, 216deg);
+    }
+    60%{
+        transform: rotate3d(0, 1, 0, 252deg);
+    }
+    70%{
+        transform: rotate3d(0, 1, 0, 288deg);
+    }
+    80%{
+        transform: rotate3d(0, 1, 0, 300deg);
+    }
+    90%{
+        transform: rotate3d(0, 1, 0, 340deg);
+    }
+    100%{
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
 
 
 
