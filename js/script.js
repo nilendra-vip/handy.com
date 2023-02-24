@@ -435,3 +435,30 @@ function signup(){
     })
 }
 signup();
+
+function addToCart(){
+    
+    var count = 0;
+    document.querySelector(".cart span").innerHTML = count; 
+    
+
+    document.querySelectorAll("#products .product_card button").forEach(function(addCartBtn){
+        var flag = 0;
+        addCartBtn.addEventListener("click", function(){
+            if(flag === 0){
+                count++;
+                document.querySelector(".cart span").innerHTML = count; 
+                this.innerHTML = "Remove"
+                flag = 1;
+            }
+            else{
+                count--;
+                document.querySelector(".cart span").innerHTML = count; 
+                this.innerHTML = "Buy Now"
+                flag = 0 ;
+            }
+            
+        })
+    })    
+}
+addToCart();
