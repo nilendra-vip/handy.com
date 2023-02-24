@@ -295,21 +295,18 @@
 
 
     /* for data1 part */
-    #data1 .text{
-        width: 100%;
-        box-shadow: 3px 3px 20px #d8d8d8    ;
-        padding: 10px 15px;
-        gap: 10px;
-        margin-bottom: 10px;
+    #data1 {
+        height: 40vh;
+        /* background-color: red; */
     }
-    #data1 .text h1{
-        font-size: 7vw;
-        margin-bottom: 10px;
+    #data1 h1{
+        font-size: 10vw;
+        margin-bottom: 0px;
     }
-    #data1 .text h3{
-        font-size: 4vw;
-        width: 100%;
-    }
+    
+    
+   
+    
     
 
 
@@ -483,7 +480,7 @@
 }
 
 #contact .contact-box{
-    height: 80%;
+    height: 90%;
     background-color: rgb(243, 243, 243);
     flex-direction: column;
     justify-content: flex-start;
@@ -511,12 +508,13 @@
 .top-categories{
     width: 100%;
     height: 30%;
-    padding: 3px 30px;
-    text-align: right;
+    padding: 20px 10px;
+    /* text-align: ; */
     border: none;
+    margin-bottom: 10px;
 }
 .top-categories .link{
-    align-items: flex-end;
+    /* align-items: flex-end; */
     gap: 5px;
     padding: 10px 30px;
 }
@@ -527,7 +525,7 @@
 .feedback{
     width: 100%;
     height: 40%;
-    padding: 0 20px;
+    padding: 25px 10px;
     border: none;
 }
 
@@ -540,7 +538,7 @@
     gap: 10px;
 }
 .feedback .sendbtn{
-    padding: 0px 40px 0 0 ;    
+    padding: 0px 60px 0 0 ;    
 }
 .feedback #send{
     padding: 5px 15px;
@@ -549,9 +547,7 @@
 
 .subscribe{
     height: 20%;
-}
-.subscribe .text{
-    height: 100%;
+    margin-top: -20px;
 }
 .subscribe .text h3{
     width: 50%;
@@ -588,6 +584,24 @@
 /* ================================================================================================== */
 /* ================================================================================================== */
 
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #000;
+    right: 10px;
+    top: 92%;
+    text-align: center;
+    line-height: 45px;
+    z-index: 9999;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
 
 
 }

@@ -268,29 +268,29 @@ gsap.from(".nilu-box  .swiper",{
 
 //  For Page 4
 
-gsap.from("#p4 .offer",{
-    scrollTrigger:{
-        trigger:"#p4 .offer",
-        start:"top 90%",
-        end:"top 60%",
-        scrub:true,
-        // markers:true
-    },
-    scale:0
-})
+// gsap.from("#p4 .offer",{
+//     scrollTrigger:{
+//         trigger:"#p4 .offer",
+//         start:"top 90%",
+//         end:"top 60%",
+//         scrub:true,
+//         // markers:true
+//     },
+//     scale:0
+// })
 
-gsap.from("#p4 .split2 span,#p4 a",{
-    scrollTrigger:{
-        trigger:"#p4 .split2 span, #p4 a",
-        start:"top 70%",
-        end:"top 40%",
-        scrub:true,
-        // markers:true
-    },
-    y:100,
-    stagger:.1,
-    opacity:0
-})
+// gsap.from("#p4 .split2 span,#p4 a",{
+//     scrollTrigger:{
+//         trigger:"#p4 .split2 span, #p4 a",
+//         start:"top 70%",
+//         end:"top 40%",
+//         scrub:true,
+//         // markers:true
+//     },
+//     y:100,
+//     stagger:.1,
+//     opacity:0
+// })
   
 
 
@@ -364,31 +364,45 @@ gsap.from("#products .product_filters h2,#products .product_filters span",{
 
 
 
-gsap.from("#data1 .text",{
-    scrollTrigger:{
-        trigger:"#data1 .text",
-        start:"top 90%",
-        end:"top 70%",
-        scrub:true,
-        // markers:true
-    },
-    y:200,
-    opacity:0,
-    stagger:.2
-})
-gsap.from("#data1 .text h1, #data1 .text h3",{
-    scrollTrigger:{
-        trigger:"#data1 .text h1, #data1 .text h3",
-        start:"top 90%",
-        end:"top 70%",
-        scrub:true,
-        // markers:true
-    },
-    y:200,
-    opacity:0,
-    stagger:.2
-})
+// gsap.from("#data1 .text",{
+//     scrollTrigger:{
+//         trigger:"#data1 .text",
+//         start:"top 90%",
+//         end:"top 70%",
+//         scrub:true,
+//         // markers:true
+//     },
+//     y:200,
+//     opacity:0,
+//     stagger:.2
+// })
+// gsap.from("#data1 .text h1, #data1 .text h3",{
+//     scrollTrigger:{
+//         trigger:"#data1 .text h1, #data1 .text h3",
+//         start:"top 90%",
+//         end:"top 70%",
+//         scrub:true,
+//         // markers:true
+//     },
+//     y:200,
+//     opacity:0,
+//     stagger:.2
+// })
 
+
+
+function data1Page(){
+    var swiper = new Swiper("#data1 .artisans-photo", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        loop:true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+    });
+}
+data1Page();
 
 
 
