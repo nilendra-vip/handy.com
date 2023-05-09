@@ -4,7 +4,7 @@ About Website
 This Handyy.com website is mainly based on e-commerce which will build a conections between Handcrafter and their handmade products.
 (this is only website design { frontend Part } )
 
-<b><a href="https://nilendra-vip.github.io/codebit2k23/" target="_blank">Click here to watch my project</a></b>
+<b><a href="https://nilendra-vip.github.io/handy.com/" target="_blank">Click here to watch my project</a></b>
 
 
 This is a Landing Page of this Handyy.com Website
